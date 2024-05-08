@@ -1,4 +1,4 @@
-# Font
+shell = "/bin/fish"
 
 [font]
 normal = { family = "Cascadia Mono" }
