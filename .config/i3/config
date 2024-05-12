@@ -113,11 +113,6 @@ default_border none
 # Hides vertical and horizontal borders when there's only one window.
 hide_edge_borders both
 
-
-
-# Setting a wallpaper
-exec_always feh --bg-fill ~/Pictures/Wallpaper.jpg
-
 # Disable the beep beep boop boop
 exec_always xset -b
 
