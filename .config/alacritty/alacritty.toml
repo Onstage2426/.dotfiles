@@ -1,4 +1,4 @@
-shell = "/bin/fish"
+shell = "/usr/bin/zsh"
 
 [font]
 normal = { family = "Cascadia Mono" }
