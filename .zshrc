@@ -30,6 +30,7 @@ zinit light-mode for \
 
 zinit ice depth=1; zinit light romkatv/powerlevel10k
 zinit light zsh-users/zsh-autosuggestions
+zinit light marlonrichert/zsh-autocomplete
 zinit light zsh-users/zsh-syntax-highlighting
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
@@ -38,3 +39,5 @@ zinit light zsh-users/zsh-syntax-highlighting
 # Aliases
 alias vim="nvim"
 alias .="nvim ."
+alias la="eza -la"
+alias ll="eza -l"
