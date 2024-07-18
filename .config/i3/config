@@ -103,7 +103,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 # i3 bar
 bar {
-	font pango:Cascadia Mono 10 
+	font pango:Cascadia Mono 9
     status_command i3status
 }
 
@@ -124,3 +124,9 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 bindsym $mod+Shift+z exec xrandr --auto
 
 bindsym $mod+l exec --no-startup-id maim --format=png --select | xclip -selection clipboard -t image/png
+
+# Setting a wallpaper
+exec feh --no-fehbg --bg-fill ~/Pictures/firedark.jpg 
+
+# Picom
+exec --no-startup-id picom -CGb
