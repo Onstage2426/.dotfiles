@@ -1,0 +1,5 @@
+window-decoration = false
+background-opacity = .95
+font-size = 14
+shell-integration = zsh
+confirm-close-surface = false
